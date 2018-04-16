@@ -24,3 +24,7 @@ bool coord_2d_eq(const coord_2d_t* a, const coord_2d_t* b);
 
 /* Calculate the midpoint between two 2D coordinates and load into mid */
 void coord_2d_midpoint(coord_2d_t* mid, const coord_2d_t* a, const coord_2d_t* b);
+
+/* Calculate area of triangle given three 2d coordinates*/
+/*Part 3 on lab12*/
+double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const coord_2d_t* c);
